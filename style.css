@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    width: 100%;
+    font-family: "Albert Sans";
+}
+
+.bg-orange {
+    background-color: #f97c37;
+}
+
+.first-section {
+    height: 920px;
+    position: relative;
+}
+.second-section {
+    padding: 0px 40px;
+}
+
+.main-image {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    justify-self: center;
+    align-self: center;
+    object-fit: cover;
+
+}
+
+.nosso-povo {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 300px;
+}
+
+.orange-circle {
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.equipe-incrivel {
+    min-height: 482px;
+    padding: 70px 10px 20px 10px;
+}
