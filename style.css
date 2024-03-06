@@ -23,10 +23,9 @@ body {
 }
 
 .main-image {
-    position: absolute;
     height: 200px;
     width: 300px;
-    margin-top: 50px;
+    margin-top: -410px;
     justify-self: center;
     align-self: center;
     object-fit: cover;
@@ -34,12 +33,11 @@ body {
 }
 
 .nosso-povo {
-    position: absolute;
     width: 300px;
     height: 500px;
     justify-self: center;
     align-self: center;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 
 .orange-circle {
@@ -53,4 +51,22 @@ body {
 .equipe-incrivel {
     min-height: 482px;
     padding: 70px 10px 20px 10px;
+}
+.people {
+    margin-top: -265px;
+    min-height: 2500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.images-people {
+    margin: 0px 50px;
+}
+
+.images {
+    height: 305px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 20px;
 }
