@@ -65,8 +65,68 @@ body {
 }
 
 .images {
-    height: 305px;
+    height: 285px;
     width: 300px;
     object-fit: cover;
     margin-top: 20px;
+}
+.info-people {
+    background-color: white;
+    min-height: 206px;
+    width: 200px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ico i, a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.ico {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+
+.contato {
+    width: 275px;
+    padding: 120px 50px 0px;
+}
+
+.contato h1 {
+    font-size: 2.25em;
+    font-weight: 300;
+}
+.contact-input {
+    border: 0;
+    padding: 12px;
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-input:last-child {
+    height: 100px;
+    text-align: start;
+    resize: none;
+}
+
+.btn-contact {
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #333333;
+    height: 100px;
+    color: white;
 }
