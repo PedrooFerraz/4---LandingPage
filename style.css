@@ -31,7 +31,9 @@ body {
     object-fit: cover;
 
 }
-
+.main-banner {
+    height: 50%;
+}
 .nosso-povo {
     width: 300px;
     height: 500px;
@@ -124,7 +126,7 @@ body {
 
 footer {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
     background-color: #333333;
     height: 100px;
