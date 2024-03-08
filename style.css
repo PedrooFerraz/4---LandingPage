@@ -8,6 +8,7 @@ body {
     height: 100dvh;
     width: 100%;
     font-family: "Albert Sans";
+    min-width: 340px;
 }
 
 .bg-orange {
@@ -131,4 +132,5 @@ footer {
     background-color: #333333;
     height: 100px;
     color: white;
+    width: 100%;
 }
